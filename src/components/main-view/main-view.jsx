@@ -1,6 +1,6 @@
 import React from 'react';
-import { MovieCard } from '../movie-card/movie-card';
-import { MovieView } from '../movie-view/movie-view';
+import MovieCard from '../movie-card/movie-card';
+import MovieView from '../movie-view/movie-view';
 
 
 export class MainView extends React.Component {
@@ -40,3 +40,6 @@ export class MainView extends React.Component {
     );
   }
 }
+
+// so we  get rid of the curly braces when importing MainView in index.jsx 
+export default MainView; 
